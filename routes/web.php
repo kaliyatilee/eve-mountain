@@ -2,11 +2,17 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\BookingController as AdminBookingController;
 use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\Admin\RatesController;
 use Illuminate\Support\Facades\Route;
+
+// ─────────────────────────────────────────
+// SEO
+// ─────────────────────────────────────────
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 
 // ─────────────────────────────────────────
 // Public routes

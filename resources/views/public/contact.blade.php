@@ -56,7 +56,7 @@
                         <div class="w-10 h-10 bg-forest-100 rounded-xl flex items-center justify-center flex-shrink-0">📞</div>
                         <div>
                             <div class="text-sm font-medium text-gray-700">Phone / WhatsApp</div>
-                            <div class="text-sm text-gray-500">+263 77 XXX XXXX</div>
+                            <div class="text-sm text-gray-500">+263 779 034 444</div>
                         </div>
                     </div>
                     <div class="flex items-start gap-3">

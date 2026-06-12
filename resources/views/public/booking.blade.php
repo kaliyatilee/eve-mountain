@@ -192,7 +192,7 @@
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1.5">Phone number *</label>
-                        <input type="tel" name="contact_phone" placeholder="+263 77 XXX XXXX"
+                        <input type="tel" name="contact_phone" placeholder="+263 779 034 444"
                                class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-forest-500 focus:border-transparent"
                                value="{{ old('contact_phone') }}" required>
                     </div>
